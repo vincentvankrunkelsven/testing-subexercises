@@ -46,7 +46,7 @@ MultipleChoiceExercise
 *** =question2
 This is the second exercise
 
-*** =options2
+*** =possible_answers2
 - One
 - Two
 - Three
