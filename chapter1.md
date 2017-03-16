@@ -22,8 +22,6 @@ attachments :
 *** =type1
 NormalExercise
 
-*** =key1: 59ecf41410
-
 *** =instructions1
 This is the first exercise
 
@@ -41,18 +39,16 @@ success_msg("Good!")
 *** =type2
 MultipleChoiceExercise
 
-*** =key2: 98de2ae3b2
-
-*** =instructions2
+*** =question2
 This is the second exercise
 
-*** =solution2
-```{r}
-print("test 2")
-```
+*** =options2
+- One
+- Two
+- Three
 
 *** =sct2
 ```{r}
 # Some sct
-success_msg("Good work!")
+test_mc(2, feedback_msgs = c("one", "two", "three"))
 ```
