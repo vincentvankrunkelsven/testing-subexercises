@@ -22,6 +22,8 @@ attachments :
 *** =type1
 NormalExercise
 
+*** =key1: 59ecf41410
+
 *** =instructions1
 This is the first exercise
 
@@ -38,6 +40,8 @@ success_msg("Good!")
 
 *** =type2
 MultipleChoiceExercise
+
+*** =key2: 98de2ae3b2
 
 *** =instructions2
 This is the second exercise
