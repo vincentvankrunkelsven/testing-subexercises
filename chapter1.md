@@ -28,9 +28,7 @@ NormalExercise
 This is the first exercise
 
 *** =solution1
-```{r}
 print("test")
-```
 
 *** =sct1
 ```{r}
